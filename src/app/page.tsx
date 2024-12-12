@@ -38,29 +38,19 @@ export default function Resume() {
               algorithms.
             </p>
           </section>
-
-          <section className="mb-6">
+          <section className="mb-3">
             <h2 className="font-bold border-b-2 border-gray-300 mb-2">EXPERIENCE</h2>
-            <div className="mb-4">
-              <h3 className="font-bold">Senior Software Engineer</h3>
-              <p className="text-sm">Google | 03/2019 - Present | Mountain View, CA</p>
+            <div className='mb-2'>
+              <h3 className="font-bold">Software Engineer</h3>
+              <p className="text-sm">Upay | 09/2020 - Continue | Gulshan-1, Dhaka</p>
               <ul className="list-disc list-inside text-sm mt-1">
-                <li>Led a 5-person team on a machine learning project to improve search algorithms, achieving a 12% increase in search relevance.</li>
-                <li>Automated key deployment workflows for mobile services, decreasing deployment time by 34% and improving code integration frequency.</li>
-                <li>Developed a series of security protocols for mobile applications, reducing potential security threats by 20%.</li>
-              </ul>
-            </div>
-            <div className="mb-4">
-              <h3 className="font-bold">Software Engineer II</h3>
-              <p className="text-sm">Microsoft | 06/2016 - 02/2019 | Redmond, WA</p>
-              <ul className="list-disc list-inside text-sm mt-1">
-                <li>Implemented a new application feature that was adopted by 80% of the user base within the first three months of release.</li>
-                <li>Optimized database queries in Azure SQL Database, which improved application performance by 25%.</li>
+                <li>Developed a custom Oracle database solution for a finance client, increasing data processing speeds by 40%.</li>
+                <li>Engaged in continuous learning initiatives to keep up with the latest in cloud computing trends.</li>
               </ul>
             </div>
             <div>
-              <h3 className="font-bold">Software Engineer</h3>
-              <p className="text-sm">Oracle | 01/2014 - 05/2016 | Austin, TX</p>
+              <h3 className="font-bold">Full Stack Software Developer(MERN)</h3>
+              <p className="text-sm">Upay | 09/2020 - Continue | Gulshan-1, Dhaka</p>
               <ul className="list-disc list-inside text-sm mt-1">
                 <li>Developed a custom Oracle database solution for a finance client, increasing data processing speeds by 40%.</li>
                 <li>Engaged in continuous learning initiatives to keep up with the latest in cloud computing trends.</li>
@@ -68,9 +58,8 @@ export default function Resume() {
             </div>
           </section>
         </div>
-
         <div>
-          <section className="mb-6">
+          <section className="mb-2">
             <h2 className="font-bold border-b-2 border-gray-300 mb-2">PROJECTS</h2>
             <div className="mb-2">
               <h3 className="font-bold text-sm">Open Source Database Contribution</h3>
@@ -81,26 +70,20 @@ export default function Resume() {
               <p className="text-xs">Developed a monitoring tool for cloud services to streamline incident response times.</p>
             </div>
           </section>
-          <section className="mb-6">
+          <section className="mb-2">
             <h2 className="font-bold border-b-2 border-gray-300 mb-2">COURSES</h2>
             <ul className="list-disc list-inside text-sm">
               <li>Advanced Data Structures and Algorithms</li>
               <li>Certified Cloud Practitioner</li>
             </ul>
           </section>
-
-          <section className="mb-6">
+          <section className="mb-2">
             <h2 className="font-bold border-b-2 border-gray-300 mb-2">EDUCATION</h2>
-            <div className="mb-2">
-              <h3 className="font-bold text-sm">Master of Science in Computer Science</h3>
-              <p className="text-xs">Stanford University | 01/2012 - 01/2013 | Stanford, CA</p>
-            </div>
             <div>
-              <h3 className="font-bold text-sm">Bachelor of Science in Computer Science</h3>
-              <p className="text-xs">Carnegie Mellon University | 01/2008 - 01/2012 | Pittsburgh, PA</p>
+              <h3 className="font-bold text-sm">B.Sc(Eng.) in Information and Communication Engineering</h3>
+              <p className="text-xs">University of Rajshahi | 01/2017 - 03/2020</p>
             </div>
           </section>
-
           <section>
             <h2 className="font-bold border-b-2 border-gray-300 mb-2">PASSIONS</h2>
             <p className="text-sm">Cloud Technology Enthusiast</p>
