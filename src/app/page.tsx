@@ -6,7 +6,7 @@ export default function Resume() {
       <div className="flex justify-between items-start mb-3">
         <div>
           <h1 className="text-xl uppercase font-bold">MUBIN MOHAMMAD IKHTIAR KHAN</h1>
-          <p className="text-blue-600 text-sm font-semibold">Software Engineer | Cloud Solutions | OS Development</p>
+          <p className="text-blue-600 text-sm font-semibold">Software Engineer</p>
           <div className="flex items-center mt-2 text-sm">
             <span className="mr-4">📞 01790186490</span>
             <span className="mr-4">📧 mubin.ice.ru@gmail.com</span>
@@ -71,7 +71,7 @@ export default function Resume() {
 
         <div>
           <section className="mb-6">
-            <h2 className="text-xl font-bold border-b-2 border-gray-300 mb-2">PROJECTS</h2>
+            <h2 className="font-bold border-b-2 border-gray-300 mb-2">PROJECTS</h2>
             <div className="mb-2">
               <h3 className="font-bold text-sm">Open Source Database Contribution</h3>
               <p className="text-xs">Contributed to improving open-source database efficiency, enhancing transaction speeds by 30%.</p>
@@ -82,7 +82,7 @@ export default function Resume() {
             </div>
           </section>
           <section className="mb-6">
-            <h2 className="text-xl font-bold border-b-2 border-gray-300 mb-2">COURSES</h2>
+            <h2 className="font-bold border-b-2 border-gray-300 mb-2">COURSES</h2>
             <ul className="list-disc list-inside text-sm">
               <li>Advanced Data Structures and Algorithms</li>
               <li>Certified Cloud Practitioner</li>
@@ -90,7 +90,7 @@ export default function Resume() {
           </section>
 
           <section className="mb-6">
-            <h2 className="text-xl font-bold border-b-2 border-gray-300 mb-2">EDUCATION</h2>
+            <h2 className="font-bold border-b-2 border-gray-300 mb-2">EDUCATION</h2>
             <div className="mb-2">
               <h3 className="font-bold text-sm">Master of Science in Computer Science</h3>
               <p className="text-xs">Stanford University | 01/2012 - 01/2013 | Stanford, CA</p>
@@ -102,7 +102,7 @@ export default function Resume() {
           </section>
 
           <section>
-            <h2 className="text-xl font-bold border-b-2 border-gray-300 mb-2">PASSIONS</h2>
+            <h2 className="font-bold border-b-2 border-gray-300 mb-2">PASSIONS</h2>
             <p className="text-sm">Cloud Technology Enthusiast</p>
             <p className="text-xs">Eagerly following and participating in advancements in cloud services and platforms.</p>
           </section>
