@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
   header: {
     flexDirection: "row",
     justifyContent: "space-between",
-    marginBottom: 20,
+    marginBottom: 5,
   },
   headerLeft: {
     flex: 1,
@@ -30,28 +30,28 @@ const styles = StyleSheet.create({
     height: 100,
   },
   name: {
-    fontSize: 24,
+    fontSize: 16,
     fontWeight: 700,
-    marginBottom: 5,
+    marginBottom: 2,
   },
   title: {
-    fontSize: 14,
-    marginBottom: 10,
+    fontSize: 12,
+    fontWeight: 600,
+    marginBottom: 5,
   },
   contactInfo: {
     flexDirection: "row",
     flexWrap: "wrap",
-    marginBottom: 5,
+    marginBottom: 2,
   },
   contactItem: {
     marginRight: 15,
-    marginBottom: 3,
+    marginBottom: 1,
   },
   sectionTitle: {
     fontSize: 14,
     fontWeight: 700,
     marginBottom: 8,
-    marginTop: 15,
     borderBottomWidth: 1,
     borderBottomColor: "#888",
     paddingBottom: 2,
@@ -142,11 +142,9 @@ const styles = StyleSheet.create({
   },
 })
 
-// Create Resume Document
 const ResumeDocument = () => (
   <Document>
     <Page size="A4" style={styles.page}>
-      {/* Header Section */}
       <View style={styles.header}>
         <View style={styles.headerLeft}>
           <Text style={styles.name}>MUBIN MOHAMMAD IKHTIAR KHAN</Text>
@@ -164,7 +162,6 @@ const ResumeDocument = () => (
           </View>
         </View>
         <View style={styles.headerRight}>
-          {/* Placeholder for headshot */}
           <Image src="/placeholder.svg?height=100&width=100" />
         </View>
       </View>
